@@ -1,6 +1,5 @@
 // Create WebSocket connection.
-const socket = new WebSocket('ws://localhost:6000');
-console.log("walaoeheheheheh")
+const socket = new WebSocket('ws://localhost:8100');
 // Connection opened
 socket.addEventListener('open', function (event) {
   let pingpong = setInterval(() => {
